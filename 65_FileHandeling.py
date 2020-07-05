@@ -1,0 +1,11 @@
+f=open("sample.txt","r")
+print(f)
+print(f.read())
+print(f.readline(),end=" ")
+print(f.readline())
+f1=open("abc.txt","w")
+f1.write("something")
+f1=open("abc.txt","a")
+f1.write("laptop")
+for data in f:
+    print(data)
